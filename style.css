@@ -1,0 +1,16 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f3f4f6; color: #333; display: flex; justify-content: center; padding: 50px 15px; }
+.container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 560px; }
+h1 { font-size: 1.5rem; text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+.error { color: #dc2626; background: #fee2e2; padding: 10px; border-radius: 4px; font-size: 0.9rem; }
+.form-group { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+input[type="text"], input[type="date"] { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 0.95rem; }
+button { background: #2563eb; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; padding: 12px; border-bottom: 1px solid #eee; }
+li.done .title { text-decoration: line-through; color: #9ca3af; }
+.title { font-weight: 600; }
+.description { font-size: 0.9rem; color: #555; margin: 4px 0; }
+.meta { font-size: 0.8rem; color: #6b7280; }
+.actions { white-space: nowrap; }
+.actions button { background: transparent; color: inherit; padding: 4px 8px; font-size: 1rem; }
